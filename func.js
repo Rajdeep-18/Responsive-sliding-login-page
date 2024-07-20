@@ -16,3 +16,15 @@ $(document).ready(function () {
 		});
 	});
 });
+
+function submitForm() { 
+	const email =  
+		  document.getElementById('email').value; 
+	const password =  
+		  document.getElementById('password').value; 
+
+	window.alert('The form is submitted'); 
+
+	document.getElementById('email').value = ''; 
+	document.getElementById('password').value = ''; 
+}
