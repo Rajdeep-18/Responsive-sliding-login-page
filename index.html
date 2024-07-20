@@ -4,6 +4,7 @@
 	<meta name="viewport" content=
 		"width=device-width, initial-scale=1" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
     <script src="func.js"></script>
 </head>
@@ -23,11 +24,15 @@
 						onsubmit="return false;">
 						<div>
 							<input type="text"
-								placeholder="Email" /> 
+								id="email"
+								placeholder="Email"
+								autocomplete="off" /> 
 							
 							<br />
 							<input type="password"
-								placeholder="Password" />
+								id="password"
+								placeholder="Password"
+								autocomplete="off" />
 						</div>
 					</form>
 
@@ -35,7 +40,25 @@
 						class="on-off">Login
 					</button>
 					
-					<button>Register</button>
+					<button onclick="submitForm()">Register</button>
+					<div class="social-buttons"> 
+						<button class="facebook"> 
+							<i class="fab fa-facebook-f"></i> 
+							Sign up with Facebook 
+						</button> 
+						<button class="twitter"> 
+							<i class="fab fa-twitter"></i> 
+							Sign up with Twitter 
+						</button> 
+						<button class="google"> 
+							<i class="fab fa-google"></i> 
+							Sign up with Google 
+						</button> 
+						<button class="instagram"> 
+							<i class="fab fa-instagram"></i> 
+							Sign up with Instagram 
+						</button> 
+					</div>
 				</div>
 			</div>
 
@@ -46,19 +69,41 @@
 						onsubmit="return false;">
 						<div>
 							<input type="text"
-								placeholder="Email" /> 
+								id="email"
+								placeholder="Email"
+								autocomplete="off" /> 
 							
 							<br />
 							<input type="password"
-								placeholder="Password" />
+								id="password"
+								placeholder="Password"
+								autocomplete="off" />
 						</div>
 
 						<button id="RightToLeft"
 							class="on-off">Register
 						</button>
 						
-						<button>Login</button>
+						<button onclick="submitForm()">Login</button>
 					</form>
+					<div class="social-buttons"> 
+						<button class="facebook"> 
+							<i class="fab fa-facebook-f"></i> 
+							Login with Facebook 
+						</button> 
+						<button class="twitter"> 
+							<i class="fab fa-twitter"></i> 
+							Login with Twitter 
+						</button> 
+						<button class="google"> 
+							<i class="fab fa-google"></i> 
+							Login with Google 
+						</button> 
+						<button class="instagram"> 
+							<i class="fab fa-instagram"></i> 
+							Login with Instagram 
+						</button> 
+					</div>
 				</div>
 			</div>
 		</div>
