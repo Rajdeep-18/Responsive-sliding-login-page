@@ -112,3 +112,70 @@ input[type="password"] {
 	color: #060006;
 	box-shadow: none;
 }
+
+.social-buttons { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px; 
+    margin-top: 20px; 
+} 
+  
+.social-buttons button { 
+    color: #fff; 
+    border: none; 
+    padding: 10px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+  
+.social-buttons button.facebook { 
+    background-color: #4c70bd; 
+} 
+  
+.social-buttons button.twitter { 
+    background-color: #2ca7f3; 
+} 
+  
+.social-buttons button.google { 
+    background-color: #f15847; 
+} 
+  
+.social-buttons button.instagram { 
+    background-color: #e650a5; 
+} 
+  
+.social-icons { 
+    display: flex; 
+    justify-content: center; 
+    gap: 8px; 
+    margin-top: 9px; 
+} 
+  
+.social-icons i { 
+    font-size: 24px; 
+    color: #4285f4; 
+} 
+  
+i { 
+    margin-right: 10px; 
+} 
+  
+.social-icons i.facebook { 
+    color: #3b5998; 
+} 
+  
+.social-icons i.twitter { 
+    color: #1da1f2; 
+} 
+  
+.social-icons i.google { 
+    color: #db4a39; 
+} 
+  
+.social-icons i.instagram { 
+    color: #C13584; 
+}
